@@ -1,0 +1,113 @@
+.todo, .inProgress, .done, .delete {
+    list-style-type: none;
+    background: white;
+    padding: 10px;
+}
+  body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to right bottom, #3c7dff, #0052d4);
+    margin: 0;
+    padding: 20px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .board {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+
+  .column {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  h2 {
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .sortable {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .card {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .emptySpace {
+    border: medium dotted #ccc;
+    height: 18px;
+    margin: 4px;
+  }
+
+  .addButton {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .addButton:hover {
+    background-color: #45a049;
+  }
+
+  .logoutButton {
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .logoutButton:hover {
+    background-color: #d32f2f;
+  }
+
+  .backButton {
+    padding: 5px 10px;
+    background-color: #ccc;
+    color: black;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .backButton:hover {
+    background-color: #b0b0b0;
+  }
+  .logout-btn {
+    background-color: #f44336;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+
+  .logout-btn:hover {
+    background-color: #d32f2f;
+  }
